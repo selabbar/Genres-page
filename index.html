@@ -8,6 +8,7 @@
 <style>
   body {
   font-family: "A Day Without Sun Text";
+     margin: 0;
 }
 
       .header {
@@ -18,7 +19,7 @@
         color: #01062e;
       }
 
-      ul {
+            ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -54,7 +55,7 @@
       }
 
       .dropdown-content a {
-        color: #01062e;
+        color: black;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -73,7 +74,18 @@
       .dropdown:hover .dropdown-content {
         display: block;
       }
-
+.topnav a.split {
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 25px;
+  float: right;
+  background-color: #01062e;
+  color: white;
+}
+     .topnav a.split:hover {
+        background-color: #3f3848;
+        color: white;
+      }
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -96,7 +108,7 @@ tr:nth-child(even) {
       <h1><strong>V.E. Schwab's Books' Genres</strong></h1>
     </div>
 
-    <ul>
+       <ul>
       <li><a href="https://selabbar.github.io/Page-Home/">Home</a></li>
       <li class="dropdown">
         <a href="https://selabbar.github.io/Books-page/" class="dropbtn">Books</a>
@@ -104,8 +116,12 @@ tr:nth-child(even) {
           <a href="https://selabbar.github.io/Genres-page/">Genres</a>
         </div>
       </li>
-      <li><a href="https://selabbar.github.io/Assignment-3/">About</a></li>
-    </ul>
+      <li><a href="https://selabbar.github.io/Assignment-3/">Fan Art</a></li>
+      
+<div class="topnav">
+    <a href="https://selabbar.github.io/Assignment-3/" class="split">About</a>
+</div>
+     </ul>
 
     <table style="width: 100%" class="center">
       <tr>
